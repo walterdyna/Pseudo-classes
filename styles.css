@@ -1,0 +1,29 @@
+/* 
+            ➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔PSEUDO CLASSES➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔➔
+
+    :active     ➔  QUANDO O ELEMENTO ESTA ATIVO, OU SEJA, ESTA SENDO PRESSIONADO!!! (AÇÃO)
+    :visited    ➔  SELECIONA O LINK QUE FOI VISITADO (ABERTO)
+    :hover      ➔  QUANDO O MOUSE PASSA EM CIMA DO ELEMENTO
+    :checked    ➔  USADO EM RADIO / CHECKBOX / SELECT
+    :disabled   ➔  ELEMENTO DESABILITADO / BUTTON / INPUT
+    :enabled    ➔  QUANDO O ELEMENTO ESTA HABILITADO (ATIVO)
+    :focus      ➔  É UMA FUNÇÃO QUE SE APLICA QUANDO O ELEMENTO RECEBE FOCO ➔ PODE OCORRER QUANDO O USUARIO SELECIONA O ELEMENTO
+    :read-only  ➔  SELECIONA INPLUT OU TEXTAREA QUE SÃO APENAS LEITURA
+    :empty      ➔  UM ELEMENTO QUE NÃO TEM FILHO
+
+    --------------------------------------------------------------------------------------------------------------------
+
+    :first-child      ➔    PRIMEIRO FILHO ➔ PRIMEIRO LI DE UMA UL ➔ PRIMEIRO SPAN DE UMA DIV.
+    :first-of-type    ➔    PRIMENTO ELEMENTO DE SEU TIPO ENTRE OS FILHOS DE SEU ELEMENTO PAI.
+    :last-child       ➔    ÚLTIMO FILHO.
+    :last-of-type     ➔    ÚLTIMO ELEMENTO DE SEU TIPO ENTRE OS FILHOS DE SEU ELEMENTO PAI.
+    :not()            ➔    ESTILIZA OS ELEMENTOS, EXCETO O QUE ESTÁ DENTRO DO ().
+    :nth-child()      ➔    SELECIONA O ELEMENTO BASEADO NA SUA POSIÇÃO ➔ CONTANDO DE TRÁS PARA FRENTE.
+    :nth-last-child() ➔    SELECIONA O ELEMENTO BASEADO NA SUA POSIÇÃO, CONTANDO DE TRÁS PARA FRENTE.
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
