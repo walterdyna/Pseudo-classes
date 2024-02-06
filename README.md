@@ -1,70 +1,46 @@
+Pseudo Classes - Cheat Sheet 🎨
 
-Documentação sobre Position no CSS
-
-Bem-vindo ao guia completo sobre a propriedade position no CSS! Aqui, vamos explorar os diferentes valores dessa propriedade e entender como eles afetam o posicionamento dos elementos na página.
-
-
-position: static (Padrão)
-
-Descrição: Não aceita valores de top, bottom, right e left.
-
-Comportamento: O elemento permanece no fluxo normal do documento.
-
-.element {
-  position: static;
-}
+Este é um guia rápido das pseudo classes mais comuns em CSS, explicando o que cada uma faz e como aplicá-las em seus estilos.
 
 
-position: fixed (Fixo na Tela)
+Pseudo Classes de Ação:
 
-Descrição: Fixa o elemento na tela, sempre no mesmo lugar.
+:active ➔ Quando o elemento está ativo, ou seja, está sendo pressionado!
 
-Comportamento: O elemento permanece fixo em relação à janela de visualização.
+:visited ➔ Seleciona o link que foi visitado (aberto).
 
-.element {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+:hover ➔ Quando o mouse passa em cima do elemento.
+
+:focus ➔ Aplica quando o elemento recebe foco, podendo ocorrer quando o usuário seleciona o elemento.
 
 
-position: sticky (Adesivo)
+Pseudo Classes de Estado:
 
-Descrição: Age como um adesivo, fixando o elemento na tela em um ponto determinado.
+:checked ➔ Usado em radio, checkbox, select.
 
-Comportamento: O elemento fica fixo até atingir um determinado ponto durante o rolar da página.
+:disabled ➔ Elemento desabilitado, como botões ou inputs.
 
-.element {
-  position: sticky;
-  top: 20px; /* Ponto de referência durante o scroll */
-}
+:enabled ➔ Quando o elemento está habilitado (ativo).
 
+:read-only ➔ Seleciona input ou textarea que são apenas leitura.
 
-position: relative (Relativo ao Início)
-
-Descrição: O elemento é posicionado em relação à sua posição inicial.
-
-Comportamento: Mantém o espaço original do elemento no fluxo do documento.
-
-.element {
-  position: relative;
-  top: 10px; /* Move o elemento 10 pixels para baixo em relação à sua posição inicial */
-}
+:empty ➔ Um elemento que não tem filho.
 
 
-position: absolute (Absoluto)
+Pseudo Classes de Seleção:
 
-Descrição: Fica absoluto (fixo) a algum elemento ou à página.
+:first-child ➔ Primeiro filho de um elemento pai.
 
-Comportamento: Posiciona-se em relação ao elemento pai (se não for static) ou à página.
+:first-of-type ➔ Primeiro elemento de seu tipo entre os filhos de seu elemento pai.
 
-.element {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Centraliza o elemento na tela */
-}
+:last-child ➔ Último filho de um elemento pai.
 
-Lembre-se das propriedades adicionais top, bottom, left e right que podem ser usadas para ajustar a posição dos elementos conforme necessário.
+:last-of-type ➔ Último elemento de seu tipo entre os filhos de seu elemento pai.
 
-Esperamos que este guia tenha esclarecido suas dúvidas sobre a propriedade position no CSS. Explore essas técnicas para criar layouts dinâmicos e responsivos em seus projetos!
+:not() ➔ Estiliza os elementos, exceto os que estão dentro do ().
+
+:nth-child() ➔ Seleciona o elemento com base em sua posição, contando de frente para trás.
+
+:nth-last-child() ➔ Seleciona o elemento com base em sua posição, contando de trás para frente.
+
+Nota: As pseudo classes são uma maneira poderosa de estilizar elementos com base em seu estado ou posição em relação ao DOM. Use com sabedoria para criar interfaces mais dinâmicas e interativas! 🚀🎉
